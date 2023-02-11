@@ -36,5 +36,5 @@ for i in range(len(items)):
         '5'
     
     Sample output:
-        '20'
+        '20 minutes'
     """
