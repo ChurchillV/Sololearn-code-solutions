@@ -10,4 +10,3 @@ for i in range(len(ages)):
     elif i == len(ages) - 1 and ages[i] >= 16:
         print("Get ready!")
         
-print(1+"1" == 2)
