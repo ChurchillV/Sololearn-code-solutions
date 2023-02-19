@@ -3,6 +3,10 @@ from more_itertools import locate
 
 #Function to find the index of each instance of G
 def find_instance(some_list, item):
+    """
+    This function looks for all instances of an item in a list 
+    and returns a list of each instance's index
+    """
     indeces = locate(some_list, lambda x:x == item)
     return(list(indeces))
 
